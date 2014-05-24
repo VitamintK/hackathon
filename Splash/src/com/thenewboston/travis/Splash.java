@@ -26,6 +26,7 @@ public class Splash extends Activity{
 		
 		Thread timer = new Thread()
 		{
+			@Override
 			public void run()
 			{
 				try	{
