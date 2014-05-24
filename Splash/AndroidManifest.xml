@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thenewboston.travis"
+    package="com.justforthetshirt.nobodycares"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -35,7 +35,7 @@
             android:name=".Menu"
             android:label="@string/title_activity_starting_point" >
             <intent-filter>
-                <action android:name="com.thenewboston.travis.MENU" />
+                <action android:name="com.justforthetshirt.nobodycares.MENU" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -45,7 +45,7 @@
             android:label="About Us"
             android:theme="@android:style/Theme.Dialog" >
             <intent-filter>
-                <action android:name="com.thenewboston.travis.ABOUT" />
+                <action android:name="com.justforthetshirt.nobodycares.ABOUT" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -54,7 +54,7 @@
             android:name=".Prefs"
             android:label="About Us">
             <intent-filter>
-                <action android:name="com.thenewboston.travis.PREFS" />
+                <action android:name="com.justforthetshirt.nobodycares.PREFS" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

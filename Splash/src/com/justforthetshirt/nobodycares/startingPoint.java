@@ -1,4 +1,4 @@
-package com.thenewboston.travis;
+package com.justforthetshirt.nobodycares;
 
 import android.app.Activity;
 import android.media.MediaPlayer;
@@ -10,28 +10,28 @@ import android.widget.TextView;
 
 public class startingPoint extends Activity {
 
-	int counter;
+	//int counter;
 	Button add;
-	TextView display;
+	//TextView display;
 	MediaPlayer mp;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		counter = 0;
+		//counter = 0;
 		add = (Button) findViewById(R.id.bAdd);
 		//sub = (Button) findViewById(R.id.bSub);
-		display = (TextView) findViewById(R.id.tvDisplay);
+		//display = (TextView) findViewById(R.id.tvDisplay);
 		mp = MediaPlayer.create(this, R.raw.voice012);
 
 		add.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				counter++;
+				//counter++;
 				mp.start();
-				display.setText("Your total is " + counter);
+			//	display.setText("");
 			}
 		});
 

@@ -1,4 +1,4 @@
-package com.thenewboston.travis;
+package com.justforthetshirt.nobodycares;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

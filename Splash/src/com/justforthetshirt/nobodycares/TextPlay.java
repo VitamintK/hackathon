@@ -1,4 +1,4 @@
-package com.thenewboston.travis;
+package com.justforthetshirt.nobodycares;
 
 import java.util.Random;
 

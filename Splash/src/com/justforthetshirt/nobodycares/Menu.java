@@ -1,4 +1,4 @@
-package com.thenewboston.travis;
+package com.justforthetshirt.nobodycares;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -37,7 +37,7 @@ public class Menu extends ListActivity {
 		String cheese = classes[position];
 
 		try {
-			Class ourClass = Class.forName("com.thenewboston.travis." + cheese);
+			Class ourClass = Class.forName("com.justforthetshirt.nobodycares." + cheese);
 			Intent ourIntent = new Intent(Menu.this, ourClass);
 
 			startActivity(ourIntent);
@@ -63,11 +63,11 @@ public class Menu extends ListActivity {
 		// TODO Auto-generated method stub
 		switch (item.getItemId()) {
 		case (R.id.aboutUs):
-			Intent i = new Intent("com.thenewboston.travis.ABOUT");
+			Intent i = new Intent("com.justforthetshirt.nobodycares.ABOUT");
 			startActivity(i);
 			break;
 		case (R.id.preferences):
-			Intent p = new Intent("com.thenewboston.travis.PREFS");
+			Intent p = new Intent("com.justforthetshirt.nobodycares.PREFS");
 			startActivity(p);
 			break;
 		case (R.id.exit):

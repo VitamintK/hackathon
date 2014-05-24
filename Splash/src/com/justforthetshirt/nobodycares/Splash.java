@@ -1,4 +1,4 @@
-package com.thenewboston.travis;
+package com.justforthetshirt.nobodycares;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -34,7 +34,7 @@ public class Splash extends Activity{
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				} finally {
-					Intent openStartingPoint = new Intent("com.thenewboston.travis.startingPoint");
+					Intent openStartingPoint = new Intent("com.justforthetshirt.nobodycares.startingPoint");
 					startActivity(openStartingPoint);
 				}
 			}
