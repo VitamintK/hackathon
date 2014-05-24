@@ -10,7 +10,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <Button
         android:id="@+id/bAdd"
         android:layout_width="279dp"
-        android:layout_height="224dp"
+        android:layout_height="279dp"
         android:background="@drawable/custom"
         android:textSize="20dp"
         android:layout_gravity="center"
