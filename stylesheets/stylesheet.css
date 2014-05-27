@@ -51,6 +51,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
+ 
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
@@ -259,14 +260,31 @@ Full-Width Styles
 *******************************************************************************/
 
 .outer {
+
   width: 100%;
 }
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 740px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+div#theimage {
+    width: 30%;
+    height: 300px;
+    float: left;}
+
+    div#thetext {
+    text-align: center;
+    margin-left: 36%;
+    height: 200px;
+}
+
+#wrapper {
+min-height:100%;
+position:relative;
 }
 
 #forkme_banner {
@@ -294,7 +312,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 #project_title {
@@ -354,15 +372,37 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
+   /*background:url('../76200_3252643895435_942298352_n.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;*/
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
 #main_content {
   padding-top: 40px;
+  padding-bottom:10px;
+  min-height:400px;
 }
 
-#footer_wrap {
+#footer_wrap {/*
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:10px;    */
+   
+    width:100%;
+height:0px;
+position:absolute;
+bottom:0;
+left:0;
+   /*
+   position: absolute;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height:50px;*/
   background: #212121;
 }
 
